@@ -1,0 +1,27 @@
+body {
+    background-color: oldlace;
+}
+
+.nav {
+    margin-bottom: 24px;
+}
+
+.nav__menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 16px;
+}
+
+.nav__link {
+    color: #191919;
+    text-decoration: none;
+
+    &--active {
+        text-decoration: underline;
+    }
+}
